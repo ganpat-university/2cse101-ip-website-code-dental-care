@@ -1,0 +1,90 @@
+.page-wrapper .information{
+	padding: 30px;
+}
+
+
+.page-wrapper .information .lists{
+	display: flex;
+	padding-bottom: 80px;
+	padding-top: 100px;
+}
+
+.page-wrapper .information .lists .lists-1{
+	flex: 1;
+	padding: 30px;
+	background: #17DA23;
+}
+
+.page-wrapper .information .lists .lists-1 center h1{
+	color: white;
+	font-size: 25px;
+}
+
+.page-wrapper .information .lists .lists-1 p{
+	color: white;
+	font-size: 18px;
+}
+
+.page-wrapper .information .lists .lists-1:hover{
+	background: #188B1F;
+}
+
+.page-wrapper .information .lists .lists-2{
+	flex: 1;
+	padding: 30px;
+	background: #17DA23;
+}
+
+.page-wrapper .information .lists .lists-2 center h1{
+	color: white;
+	font-size: 25px;
+}
+
+.page-wrapper .information .lists .lists-2 p{
+	color: white;
+	font-size: 18px;
+}
+
+.page-wrapper .information .lists .lists-2:hover{
+	background: #188B1F;
+}
+
+.page-wrapper .information .lists .lists-3{
+	flex: 1;
+	padding: 30px;
+	background: #17DA23;
+}
+
+.page-wrapper .information .lists .lists-3 center h1{
+	color: white;
+	font-size: 24px;
+}
+
+.page-wrapper .information .lists .lists-3 p{
+	color: white;
+	font-size: 18px;
+}
+
+.page-wrapper .information .lists .lists-3:hover{
+	background: #188B1F;
+}
+
+.page-wrapper .information .lists .lists-4{
+	flex: 1;
+	padding: 30px;
+	background: #17DA23;
+}
+
+.page-wrapper .information .lists .lists-4 center h1{
+	color: white;
+	font-size: 25px;
+}
+
+.page-wrapper .information .lists .lists-4 p{
+	color: white;
+	font-size: 18px;
+}
+
+.page-wrapper .information .lists .lists-4:hover{
+	background: #188B1F;
+}

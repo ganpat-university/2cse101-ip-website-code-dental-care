@@ -1,0 +1,211 @@
+.page-wrapper .main .content .header ul li a{
+		text-decoration: none;
+		color: white;
+		display: block;
+}
+
+.us center h1{
+	padding-top: 200px;
+	font-size: 62px;
+	color: #B9B0FA;
+}
+
+.us center h1:hover{
+	color: #D1CBFB;
+}
+
+.mission center h1{
+	padding-top: 5px;
+	font-size: 62px;
+	color: #B9B0FA;
+}
+
+.mission center h1:hover{
+	color: #D1CBFB;
+}
+
+.mission center p{
+	color: #F5BEFD;
+	padding-bottom: 70px;
+	padding-left: 200px;
+	padding-top: 18px;
+	padding-right: 200px;
+	
+}
+
+.mission center p:hover{
+	color: #FDFAF3;
+}
+
+.para center p{
+	color: #F5BEFD;
+	padding-bottom: 70px;
+	padding-left: 200px;
+	padding-top: 18px;
+	padding-right: 200px;
+	
+}
+
+.para center p:hover{
+	color: #FDFAF3;
+}
+
+.mission{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+
+.mission center h1{
+	font-size: 42px;
+}
+
+
+body{
+	background: #404041;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.our-team center h1{
+	font-size: 46px;
+	color: #FA4603;
+	padding-top: 70px;
+}
+
+.our-team center h1:hover{
+	color: #FC4868;
+}
+
+.section{
+	padding: 20px;
+	height: 1000px;
+}
+
+.main-folder-1{
+	display: flex;
+	padding-bottom: 480px;
+}
+
+.main-folder-1 .card-1{
+	flex: 1;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.main-folder-1 .card-2{
+	flex: 1;
+	padding-top: 30px;
+}
+
+.main-folder-1 .card-3{
+	flex: 1;
+	padding-top: 30px;
+}
+
+.main-folder-2{
+	display: flex;
+}
+
+.main-folder-2 .card-1{
+	flex: 1;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.main-folder-2 .card-2{
+	flex: 1;
+	padding-top: 30px;
+}
+
+.main-folder-2 .card-3{
+	flex: 1;
+	padding-top: 30px;
+}
+
+
+.card{
+	position: absolute;
+	width: 300px;
+	height: 400px;
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+}
+
+.card .front{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+}
+
+.card:hover .front{
+	transform: rotateX(-180deg);
+}
+
+.card .back{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #D1FCFC;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+}
+
+.card:hover .back{
+	transform: rotateX(0deg);
+}
+
+.card .back .details{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.card .back .details h2{
+	margin:0;
+	padding: 0;
+	font-size:  24px;
+	color: black;
+}
+
+.card .back .details h2 span{
+	color: #a7a7a7;
+	font-size: 16px;
+}
+
+.social-icons{
+	padding: 10px 0;
+}
+
+.social-icons a{
+	display: inline-block;
+	width: 36px;
+	text-align: center;
+	background: #262626;
+	color: blue;
+	text-decoration: none;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.social-icons a .fa{
+	line-height: 36px;
+}
+
+.social-icons a:hover{
+	background: #FEBDBD;
+}

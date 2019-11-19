@@ -1,0 +1,147 @@
+<html>
+	<head>
+  		<title>Appointment Form</title>
+		<style>
+		
+		body{
+			background: #404041;
+		}
+		
+			h1{
+			font-size:50px;
+			color:lightgreen;
+			padding-top: 4%;
+			padding-bottom: 1%;
+		}
+		
+			
+			.appointment form table tr td{
+					font-size: 19px;
+					color: #F0F0EF;
+				}
+				.appointment form table tr td input{
+							padding: 5px 10px 5px 5px;
+							margin: 9px 0;
+							display: inline-block;			
+							border-bottom: 3px solid yellow;
+							border-radius: 6px;
+							opacity: .8;
+				}
+				
+				.appointment form table tr td #time{
+							padding: 5px 18px 5px 5px;
+							margin: 10px 0;
+							opacity: .8;
+							border-radius: 7px;
+						}
+				
+				.appointment form table tr td input:hover{
+								border-bottom-color: navy;
+				}
+				.appointment form table tr td textarea{
+							padding: 9px 10px 9px 10px ;
+							display: inline-block;							
+							border-bottom: 3px solid yellow;
+							border-radius: 6px;							
+							resize: none;
+							opacity: .8;
+				}
+				.appointment form table tr button{
+						color: green;
+						background-color: lightgreen;
+						font-size: 12px;
+						padding: 4px 30px;
+						display: inline-block;			
+						border-radius: 16px;
+				}
+				.appointment form table tr button:hover{
+						color: red;
+						background-color: lightblue;
+						display: block;
+				}
+				.appointment form table tr td textarea:hover{
+								border-bottom-color: navy;								
+				}
+				
+				.appointment form fieldset{
+						border-width: 5px;
+						border-color: #F9D730;
+						width: 360px;
+						height: 320px;
+						padding-top: 20px;
+						padding-left: 25px;
+						padding-bottom: 20px;
+						border-radius: 20px;
+				}
+		
+		</style>
+	</head>
+	<body>
+
+		<center><h1>Appointment  Form</h1>
+		
+			<div class="appointment">
+				<form id="theForm" method="post"> 
+					<fieldset>
+						<table border: 0>
+							<tr>
+								<td>Name <td>:</td></td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" placeholder="First Name" name="name" required/></td>
+								<td id="nameError" class="red">&nbsp;</td>
+							</tr>
+							<tr>
+								<td>Gender <td>:</td></td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="m" required/><span>&nbsp;&nbsp;Male</span>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="f" /><span>&nbsp;&nbsp;Female</span></td>
+							</tr>
+							<tr>
+								<td>Phone <td>:</td></td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="phone" placeholder="Phone Number" name="phone" required/></td>
+								<td id="phoneError" class="red">&nbsp;</td>
+							</tr>
+							<tr>
+								<td>Email <td>:</td></td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="email" placeholder="Email ID" name="email" required/></td>
+								<td id="emailError" class="red">&nbsp;</td>
+							</tr>
+							
+							<tr>
+								<td>Time <td>:</td></td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									<select id="time" name="Time" required>
+										<option value="" selected>Select Time</option>
+										<option value="T1">10:00</option>
+										<option value="T2">10:30</option>
+										<option value="T3">11:00</option>
+										<option value="T4">11:30</option>
+										<option value="T5">12:00</option>
+										<option value="T6">12:30</option>
+										<option value="T9">03:00</option>
+										<option value="T10">03:30</option>
+										<option value="T11">04:00</option>
+										<option value="T12">05:30</option>
+										<option value="T13">06:00</option>
+										<option value="T14">06:30</option>
+										<option value="T15">07:00</option>
+										<option value="T16">07:30</option>
+									</select><br>
+								</td>
+								<td id="countryError" class="red">&nbsp;</td>
+							</tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr><td></td><td></td><td></td></tr>
+							<tr>
+								<td></td><td></td>
+								<td><button type="submit" value="Submit" id="submit" onClick="complete()">Submit</button></td>
+							</tr>
+						</table>
+					</fieldset>
+				</form>
+			</div>
+		</center>
+	</body>
+</html>

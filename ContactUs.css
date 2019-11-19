@@ -1,0 +1,80 @@
+html,
+body{
+	height: 100%;
+}
+.page-wrapper .about-me{
+	padding-right: 10px;
+	height: 350px;
+	display: flex;
+}
+.page-wrapper .about-me .footer-section{
+	flex: 1;
+}
+.contact{
+	flex: 1;
+	padding:25px;
+}
+.about-us{
+	flex: 1;
+	padding:25px;
+}
+
+.page-wrapper center{
+			padding-top: 150px;
+			font-size: 30px;
+		}
+
+.page-wrapper .main .content .header ul li a{
+				text-decoration: none;
+				color: black;
+				display: block;
+			}
+
+		<!-- Appointment -->
+				
+				.page-wrapper .about-us div form table tr td{
+					padding: 16px;
+				}
+				.page-wrapper .about-us div form table tr td input{
+							padding: 5px 10px 5px 5px;
+							margin: 10px 0;
+							display: inline-block;			
+							border-bottom: 3px solid yellow;
+							border-radius: 6px;
+				}
+				.page-wrapper .about-us div form table tr td input:hover{
+								border-bottom-color: navy;
+				}
+				.page-wrapper .about-us div form table tr td textarea{
+							padding: 9px 10px 9px 10px ;
+							display: inline-block;							
+							border-bottom: 3px solid yellow;
+							border-radius: 6px;							
+							resize: none;
+				}
+				.page-wrapper .about-us div form table tr button{
+						color: green;
+						background-color: lightgreen;
+						font-size: 12px;
+						padding: 4px 30px;
+						display: inline-block;			
+						border-radius: 16px;
+				}
+				.page-wrapper .about-us div form table tr button:hover{
+						color: red;
+						background-color: lightblue;
+						display: block;
+				}
+				.page-wrapper .about-us div form table tr td textarea:hover{
+								border-bottom-color: navy;								
+				}
+				
+				.page-wrapper .about-us form fieldset{
+						border-width: 5px;
+						width: 380px;
+						height: 380px;
+						padding-top: 25px;
+						padding-left: 30px;
+						padding-bottom: 30px;
+				}
+		<!-- //Appointment -->
